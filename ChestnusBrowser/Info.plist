@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string></string>
+	<key>FacebookClientToken</key>
+	<string></string>
+	<key>FacebookDisplayName</key>
+	<string>Browser</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<true/>
+	<key>FacebookAutoLogAppEventsEnabled</key>
+	<true/>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
+</dict>
+</plist>
